@@ -103,7 +103,7 @@ keywords: "Jekyll, NexT"
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -115,7 +115,7 @@ copyright: true
 canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
-seo: false
+seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
@@ -252,7 +252,7 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
+  position: right
   #position: right
 
   # Sidebar Display, available value:
@@ -260,7 +260,7 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  display: always
   #display: always
   #display: hide
   #display: remove
